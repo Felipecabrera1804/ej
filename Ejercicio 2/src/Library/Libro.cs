@@ -3,8 +3,7 @@
 namespace SRP
 {
     public class Libro
-    {// le falta encapsular
-
+    {
         private string Titulo { get ; }
         private string Autor { get ; }
         private string Codigo { get ;  }
