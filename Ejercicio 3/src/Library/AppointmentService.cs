@@ -4,7 +4,7 @@ using System.Text;
 namespace Library
 {
     public class AppointmentService
-    {
+    {// se puede extrapolar la verificacion de isnullorempty a una nueva funcion en otra clase y llamarla para cada atributo
         public static string CreateAppointment(string name, string id, string phoneNumber, DateTime date, string appoinmentPlace, string doctorName)
         {
             StringBuilder stringBuilder = new StringBuilder("Scheduling appointment...\n");
